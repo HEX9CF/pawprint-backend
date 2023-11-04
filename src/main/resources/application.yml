@@ -5,3 +5,15 @@ spring:
     url: jdbc:mysql://localhost:3306/pawprint_db?serverTimezone=UTC
     username: root
     password: root
+mybatis-plus:
+  configuration:
+    # 开启下划线到驼峰命名转换
+    map-underscore-to-camel-case: true
+    # 调试日志标准输出
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      # 表前缀
+      table-prefix: tbl_
+      id-type: auto
+

@@ -7,7 +7,6 @@ import pawprint.pojo.Result;
 /**
  * 异常处理器
  *
- * @author HEX9CF
  * @date 2023/11/04
  */
 @RestControllerAdvice

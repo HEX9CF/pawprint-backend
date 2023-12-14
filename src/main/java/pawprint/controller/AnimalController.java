@@ -11,7 +11,6 @@ import java.util.List;
 /**
  * 动物控制器
  *
- * @author HEX9CF
  * @date 2023/11/04
  */
 @RestController
@@ -27,7 +26,8 @@ public class AnimalController {
      */
     @GetMapping
     public Result getAll() {
-        return Result.success("OK", animalService.list());
+//        return Result.success("OK", animalService.list());
+        return Result.success("OK", animalService.listByDesc());
     }
 
     /**

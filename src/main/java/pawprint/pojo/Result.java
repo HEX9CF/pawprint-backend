@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 /**
  * 后果
  *
- * @author HEX9CF
  * @date 2023/11/04
  */
 @Data

@@ -7,7 +7,6 @@ import pawprint.pojo.Animal;
 /**
  * 动物映射器
  *
- * @author HEX9CF
  * @date 2023/11/04
  */
 @Mapper

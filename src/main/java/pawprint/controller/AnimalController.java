@@ -50,7 +50,7 @@ public class AnimalController {
     @PostMapping
     public Result add(@RequestBody Animal animal) {
         Boolean flag = animalService.insert(animal);
-        if(flag) {
+        if (flag) {
             return Result.success("添加成功喵(=^ェ^=)", null);
         }
         return Result.error("添加失败喵(=ＴェＴ=)", null);
